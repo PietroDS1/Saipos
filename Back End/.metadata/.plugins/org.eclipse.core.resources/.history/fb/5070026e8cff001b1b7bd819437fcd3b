@@ -1,0 +1,7 @@
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database=postgresql
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL82Dialect
+spring.datasource.url=jdbc:mysql://{mysql_server}/confluence?useSSL=true&sslMode=VERIFY_IDENTITY&trustCertificateKeyStoreUrl=file%3A%2Fetc%2Fssl%2Fcerts%2Fjava%2Fcacerts&trustCertificateKeyStorePassword=changeit&enabledTLSProtocols=TLSv1.2&useUnicode=true&characterEncoding=utf8
+spring.datasource.username=root
+spring.datasource.password=pr998*2012P

@@ -1,0 +1,7 @@
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database=postgresql
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL82Dialect
+spring.datasource.url=jdbc:postgresql://localhost:5432/db_blog_pessoal?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSl=false
+spring.datasource.username=root
+spring.datasource.password=pr998*2012P
