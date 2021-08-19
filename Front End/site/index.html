@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Teste</title>
+</head>
+<body>
+        <!--Menu-->
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <a class="navbar-brand text-light" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="sobreMim.html">Sobre mim<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="listaTarefas.html">Lista de Tarefas</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Redes Sociais
+                  </a>
+                  <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-dark" href="https://twitter.com/">Twitter</a>
+                    <a class="dropdown-item text-dark" href="https://www.instagram.com/">Intagram</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-dark" href="https://www.linkedin.com/">LinkedIn</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0 text-light" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </nav>
+    <!--/Menu-->
+          <!--Carrossel-->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="Imagem/angular2-1280x720.png" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Imagem/NodeJs.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://miro.medium.com/max/1400/1*y4aU5ZK5niGGgsZFnS849Q.jpeg" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        <!--/Carrossel-->
+
+        <!--JumboTron-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Fluid jumbotron</h1>
+              <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+            </div>
+          </div>
+        <!--/JumboTron-->
+
+        <!--Card-->
+      <div class="container">
+        <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHTvjN_B7uyIw/company-logo_200_200/0/1623258737442?e=2159024400&v=beta&t=iMSZzVDZP-lOg8gIEr-FvFEqmb2r2IDTJ51WBTsL3B4" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
+                <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHTvjN_B7uyIw/company-logo_200_200/0/1623258737442?e=2159024400&v=beta&t=iMSZzVDZP-lOg8gIEr-FvFEqmb2r2IDTJ51WBTsL3B4" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                <footer class="blockquote-footer">
+                  <small>
+                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHTvjN_B7uyIw/company-logo_200_200/0/1623258737442?e=2159024400&v=beta&t=iMSZzVDZP-lOg8gIEr-FvFEqmb2r2IDTJ51WBTsL3B4" alt="Imagem do card">
+            </div>
+            <div class="card p-3 text-right">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+          </div>
+
+          <!--Texto e vídeo-->
+
+          <div class="row">
+            <div class="col-md-6">
+                <h3>Teste</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos iure sed nostrum laborum, enim, autem eum laboriosam labore veritatis ratione consectetur, commodi corporis impedit in sit nemo quod necessitatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos iure sed nostrum laborum, enim, autem eum laboriosam labore veritatis ratione consectetur, commodi corporis impedit in sit nemo quod necessitatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos iure sed nostrum laborum, enim, autem eum laboriosam labore veritatis ratione consectetur, commodi corporis impedit in sit nemo quod necessitatibus!</p>
+            </div>
+            <div class="col-md-6">
+                <div id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kZ0NqLl4gAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> 
+            </div>
+          </div>
+          <!--/Texto e vídeo-->
+      </div>
+          <!--/Card-->
+          <footer>
+              <hr>
+            Contato: danton.pietro@gmail.com      
+
+          </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
