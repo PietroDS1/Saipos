@@ -1,3 +1,2 @@
 # Saipos
-Teste para Saipos
-Sem integração Front Back End
+Teste para Saipos sem integração Front Back End
